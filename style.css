@@ -1,0 +1,38 @@
+body {
+  height: auto;
+  width: auto;
+  background-color: rgb(243, 243, 243);
+}
+
+.header {
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.header img {
+  height: 2.5vw;
+  width: auto;
+  position: fixed;
+  top: 5vh;
+  left: 2vw;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+.post iframe {
+  width: 34vw;
+  height: 137vh;
+  border: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
